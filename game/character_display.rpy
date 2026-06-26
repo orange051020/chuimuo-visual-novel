@@ -3,63 +3,63 @@
 # 通过 Character callback 实现自动化，不侵入原有剧情脚本
 # 规则：说话→高亮 | 在场非说话→30%弱化 | 旁白→全部隐藏 | 回忆→柔光85% | 场景切换→清空
 
-## === 立绘图像定义 ===
+## === 立绘图像定义（与新素材系统同步）===
 
 # 李东升（开国帝王）
-image char_lidongsheng_normal = "images/character/char_lidongsheng_normal.webp"
-image char_lidongsheng_anger = "images/character/char_lidongsheng_anger.webp"
-image char_lidongsheng_despair = "images/character/char_lidongsheng_despair.webp"
-image char_lidongsheng_young = "images/character/char_lidongsheng_young.webp"
-image char_lidongsheng_closeup_1 = "images/character/char_lidongsheng_closeup_1.webp"
+image char_lidongsheng_normal = "images/character/char_emperor_bed.webp"
+image char_lidongsheng_anger = "images/character/char_emperor_angry.webp"
+image char_lidongsheng_despair = "images/character/char_emperor_silent.webp"
+image char_lidongsheng_young = "images/character/char_emperor_young.webp"
+image char_lidongsheng_closeup_1 = "images/character/char_emperor_hand.webp"
 
 # 刘思廉（户部尚书）
-image char_liusilian_normal = "images/character/char_liusilian_normal.webp"
+image char_liusilian_normal = "images/character/char_liusilian_sit.webp"
 image char_liusilian_argue = "images/character/char_liusilian_argue.webp"
-image char_liusilian_decide = "images/character/char_liusilian_decide.webp"
-image char_liusilian_closeup_1 = "images/character/char_liusilian_closeup_1.webp"
+image char_liusilian_decide = "images/character/char_liusilian_back.webp"
+image char_liusilian_closeup_1 = "images/character/char_liusilian_hand.webp"
 
 # 马靖（大将军）
-image char_majing_normal = "images/character/char_majing_normal.webp"
-image char_majing_press = "images/character/char_majing_press.webp"
-image char_majing_drink = "images/character/char_majing_drink.webp"
-image char_majing_closeup_1 = "images/character/char_majing_closeup_1.webp"
+image char_majing_normal = "images/character/char_majing_arms.webp"
+image char_majing_press = "images/character/char_majing_sword.webp"
+image char_majing_drink = "images/character/char_majing_toast.webp"
+image char_majing_closeup_1 = "images/character/char_majing_hand.webp"
 
 # 顾子明（内阁首辅）
-image char_guziming_normal = "images/character/char_guziming_normal.webp"
-image char_guziming_breakdown = "images/character/char_guziming_breakdown.webp"
+image char_guziming_normal = "images/character/char_guziming_bow.webp"
+image char_guziming_breakdown = "images/character/char_guziming_break.webp"
 image char_guziming_kneel = "images/character/char_guziming_kneel.webp"
-image char_guziming_closeup_1 = "images/character/char_guziming_closeup_1.webp"
+image char_guziming_closeup_1 = "images/character/char_guziming_hand.webp"
 
 # 徐淑娘（皇后）
-image char_xushuniang_normal = "images/character/char_xushuniang_normal.webp"
-image char_xushuniang_worry = "images/character/char_xushuniang_worry.webp"
-image char_xushuniang_ghost = "images/character/char_xushuniang_ghost.webp"
-image char_xushuniang_closeup_1 = "images/character/char_xushuniang_closeup_1.webp"
+image char_xushuniang_normal = "images/character/char_xushuliang_sit.webp"
+image char_xushuniang_worry = "images/character/char_xushuliang_side.webp"
+image char_xushuniang_ghost = "images/character/char_xushuliang_ghost.webp"
+image char_xushuniang_closeup_1 = "images/character/char_xushuliang_side.webp"
 
 # 李承英（帝王义子）
-image char_lichengying_young = "images/character/char_lichengying_young.webp"
-image char_lichengying_later = "images/character/char_lichengying_later.webp"
+image char_lichengying_young = "images/character/char_lichengying_stand.webp"
+image char_lichengying_later = "images/character/char_lichengying_stoop.webp"
 image char_lichengying_ghost = "images/character/char_lichengying_ghost.webp"
 
 # 韩铁山（北境武将）
-image char_hantieshan_normal = "images/character/char_hantieshan_normal.webp"
+image char_hantieshan_normal = "images/character/char_hantieshan_knife.webp"
 image char_hantieshan_kill = "images/character/char_hantieshan_kill.webp"
 image char_hantieshan_ghost = "images/character/char_hantieshan_ghost.webp"
 
 # 赵铁栓（退伍老兵）
-image char_zhaotieshuan_preach = "images/character/char_zhaotieshuan_preach.webp"
-image char_zhaotieshuan_despair = "images/character/char_zhaotieshuan_despair.webp"
+image char_zhaotieshuan_preach = "images/character/char_zhaotieshuan_talk.webp"
+image char_zhaotieshuan_despair = "images/character/char_zhaotieshuan_kneel.webp"
 image char_zhaotieshuan_fall = "images/character/char_zhaotieshuan_fall.webp"
-image char_zhaotieshuan_closeup_1 = "images/character/char_zhaotieshuan_closeup_1.webp"
+image char_zhaotieshuan_closeup_1 = "images/character/char_zhaotieshuan_hand.webp"
 
 # 说书人
-image char_shuoshuren_normal = "images/character/char_shuoshuren_normal.webp"
-image char_shuoshuren_full = "images/character/char_shuoshuren_full.webp"
+image char_shuoshuren_normal = "images/character/char_storyteller_half.webp"
+image char_shuoshuren_full = "images/character/char_storyteller_full.webp"
 
 # 群像
-image group_court_officials = "images/character/group_court_officials.webp"
-image group_villagers = "images/character/group_villagers.webp"
-image group_four_conspiracy = "images/character/group_four_conspiracy.webp"
+image group_court_officials = "images/character/char_group_court.webp"
+image group_villagers = "images/character/char_group_village.webp"
+image group_four_conspiracy = "images/character/char_group_four.webp"
 
 
 ## === 变换定义 ===

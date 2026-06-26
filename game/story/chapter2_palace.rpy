@@ -2,7 +2,8 @@
 # 帝王临终幻觉，回望一生改革与四人集团崩塌
 
 label chapter2_palace:
-    scene bg_palace with ink_transition
+    scene bg_bedchamber_wide with ink_transition
+    show char_emperor_bed at left_pos with portrait_enter
     play music "audio/bgm/bgm_palace.mp3" fadein 3.0
 
     "皇城。寝殿。"
@@ -14,6 +15,9 @@ label chapter2_palace:
     "殿内空旷，只有内侍守在角落，大气不敢出。窗外是无边的夜色，星月无光。"
 
     "帝王的意识在混沌中沉浮。过去与现在纠缠在一起，分不清哪些是记忆，哪些是幻觉。"
+
+    scene bg_bedchamber_candle with hallucination_transition
+    show char_emperor_hand at left_pos
 
     emperor "朕……做了很多事。"
 
@@ -27,13 +31,24 @@ label chapter2_palace:
 
     "可幻觉变了。画面碎裂，像被石子击中的水面。"
 
+    scene bg_bedchamber_illusion with hallucination_transition
+    show char_group_four at right_pos with portrait_ghost
+
     "他看到了刘思廉。那个永远脊背笔直、目光冷静的男人。刘思廉站在朝堂上，一字一句地说：陛下，百姓要的是饭碗，不是权力。您把刀递给他们，他们不会用刀保护自己——只会有人替他们用刀。"
 
     "他没有听。他觉得自己是对的。"
 
+    scene bg_study_flashback with scroll_transition
+    show char_emperor_angry at left_pos
+    show char_liusilian_argue at right_pos with portrait_dim
+
     emperor "思廉……你是对的。朕不该……"
 
     "幻觉再次碎裂。"
+
+    scene bg_court_flashback with seal_transition
+    show char_guziming_kneel at bottom_pos
+    show char_group_court at right_pos with portrait_dim
 
     "他看到了顾子明。那个起草《大顺律》的年轻人，跪在他面前，脸色苍白。顾子明的手在发抖，嘴唇翕动了很久，最终什么都没有说。"
 
@@ -51,6 +66,9 @@ label chapter2_palace:
 
     "他看到了李承英。他的义子。那个曾经赤诚如火、跪在他面前发誓要为百姓做主的少年。后来被地方士族腐蚀，在北境借律法之名清洗异己，手段之狠辣，连韩铁山都自愧不如。"
 
+    scene bg_northwest_flashback with scroll_transition
+    show char_emperor_young at bottom_pos with portrait_ghost
+
     emperor "承英……朕对不起你。是朕把你推上了那条路。"
 
     "幻觉渐渐模糊。记忆的碎片如同散落的奏折，在黑暗中旋转、沉没。"
@@ -67,6 +85,9 @@ label chapter2_palace:
 
     "帝王的嘴角浮起一丝苦笑。"
 
+    scene bg_bedchamber_end with hallucination_transition
+    show char_emperor_silent at left_pos with portrait_dim
+
     emperor "奏报……奏报……"
 
     "他闭上了眼。烛火又暗了一分。"
@@ -74,6 +95,10 @@ label chapter2_palace:
     "他不知道，此刻的北方，风雪正覆盖着一个枯村。那个宣讲律法的老兵，正在被拖出家门。而这一切，永远不会出现在任何一份奏折上。"
 
     stop music fadeout 3.0
+
+    hide char_emperor_silent
+    with portrait_fade
+
     scene bg_black with hallucination_transition
 
     $ renpy.force_autosave()

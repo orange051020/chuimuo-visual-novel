@@ -3,7 +3,8 @@
 # 选项B：默然离世、无言落幕
 
 label ending_choice:
-    scene bg_palace with hallucination_transition
+    scene bg_bedchamber_end with hallucination_transition
+    show char_emperor_silent at left_pos with portrait_dim
     play music "audio/bgm/bgm_palace.mp3" fadein 3.0
 
     "皇城。寝殿。"
@@ -38,7 +39,8 @@ label ending_choice:
 label ending_a:
     $ persistent.ending_a_seen = True
 
-    scene bg_palace with Dissolve(0.5)
+    scene bg_bedchamber_end with Dissolve(0.5)
+    show char_emperor_angry at left_pos with portrait_enter
 
     "帝王睁开了眼。"
 
@@ -90,7 +92,8 @@ label ending_a:
 label ending_b:
     $ persistent.ending_b_seen = True
 
-    scene bg_palace with Dissolve(0.5)
+    scene bg_bedchamber_end with Dissolve(0.5)
+    show char_emperor_silent at left_pos with portrait_dim
 
     "帝王没有说话。"
 

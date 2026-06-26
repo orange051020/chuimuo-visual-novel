@@ -2,7 +2,9 @@
 # 权臣复盘大局，乱世终定、新秩序成型
 
 label chapter4_south:
-    scene bg_yamen with ink_transition
+    scene bg_mansion_wide with ink_transition
+    show char_liusilian_sit at left_pos
+    show char_majing_arms at right_pos with portrait_dim
     play music "audio/bgm/bgm_yamen.mp3" fadein 2.0
 
     "南方。行辕。"
@@ -15,6 +17,8 @@ label chapter4_south:
 
     "他没有看遗诏。他在看密报。"
 
+    scene bg_mansion_desk with ink_transition
+
     "密报上写着北方清算的数字。赵铁栓的名字在其中，混在一长串名单里，不过是百余个名字中的一个。"
 
     "刘思廉将密报合上，放到一旁。他的表情没有变化。"
@@ -26,6 +30,9 @@ label chapter4_south:
     liusilian "从陛下颁《大顺律》那年算起，整整十年。我看着这部律法从利民之器，变成害民之刃。不是律法本身有错——是制度。是人心。是这个盘根错节了两千年的官僚体系。"
 
     "他站起身，走到窗前。画舫的灯火映在他脸上，明明灭灭。"
+
+    scene bg_mansion_window with ink_transition
+    show char_liusilian_back at left_pos with portrait_dim
 
     liusilian "陛下以为，把刀递给百姓，百姓就能保护自己。可刀是有重量的。百姓握不住，便有人替他们握。豪强握了刀，清洗异己。武将握了刀，私固兵权。到头来，刀成了所有人的凶器，唯独没有保护任何人。"
 
@@ -61,6 +68,10 @@ label chapter4_south:
 
     liusilian "没有人是恶人。可所有人都输了。"
 
+    scene bg_mansion_toast with scroll_transition
+    show char_majing_toast at right_pos with portrait_enter
+    show char_liusilian_sit at left_pos
+
     "他睁开眼，目光落在遗诏上。"
 
     liusilian "陛下走了。"
@@ -74,6 +85,11 @@ label chapter4_south:
     "他的最后一刻，是什么样的？"
 
     stop music fadeout 3.0
+
+    hide char_majing_toast
+    hide char_liusilian_sit
+    with portrait_fade
+
     scene bg_black with scroll_transition
 
     $ renpy.force_autosave()

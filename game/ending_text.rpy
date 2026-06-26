@@ -29,9 +29,8 @@ label unified_ending:
     # 淡出背景音乐，与渐暗同步
     stop music fadeout 1.5
 
-    # 第一步：结局画面以1.5秒匀速渐暗至全黑背景
-    # with Dissolve 为阻塞式，过渡完成后自动继续
-    scene bg_black with Dissolve(1.5)
+    # 第一步：结局画面以1.5秒匀速渐暗，切换到收尾画轴背景
+    scene bg_ending_text with Dissolve(1.5)
 
     # 第二步：全黑背景下，文案以2秒逐字书写式淡入浮现
     # 14个汉字（不计换行），每字延迟约0.143秒，总时长2秒

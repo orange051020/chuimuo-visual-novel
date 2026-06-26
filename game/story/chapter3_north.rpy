@@ -2,7 +2,7 @@
 # 底层信徒被清算、绝望殉道、消息彻底隔绝深宫
 
 label chapter3_north:
-    scene bg_village with ink_transition
+    scene bg_village_distant with ink_transition
     play music "audio/bgm/bgm_village.mp3" fadein 2.0
 
     "北方。枯村。"
@@ -15,6 +15,9 @@ label chapter3_north:
 
     "只有一个人还在。"
 
+    scene bg_village_tree with ink_transition
+    show char_zhaotieshuan_kneel at bottom_pos
+
     "赵铁栓。退伍老兵，《大顺律》民间宣讲者。"
 
     "他被五花大绑，跪在村口的冻土上。面前插着那块木牌——他走村串巷用来宣讲律法的木牌。木牌上的字已经模糊了，风刀霜剑刻掉了墨迹，只剩隐约的“大顺”二字。"
@@ -24,6 +27,10 @@ label chapter3_north:
     "军官身后，十几个兵丁列成一排，面无表情。"
 
     "赵铁栓抬起头。他的脸冻得发紫，嘴唇干裂，但脊背挺得笔直。"
+
+    scene bg_square_flashback with scroll_transition
+    show char_zhaotieshuan_talk at center_pos
+    show char_group_village at bottom_pos with portrait_dim
 
     zhaotieshuan "你们不能抓我。《大顺律》写得明白，百姓有权议政。我是宣讲律法，不是妄议。"
 
@@ -55,6 +62,9 @@ label chapter3_north:
 
     "北风更大了。沙尘打在脸上，生疼。"
 
+    scene bg_paper_closeup with brush_transition
+    show char_zhaotieshuan_hand at center_pos
+
     "赵铁栓跪在冻土上，嘴唇翕动着，反反复复念着同一句话——"
 
     zhaotieshuan "陛下会知道的……陛下会知道的……"
@@ -72,6 +82,10 @@ label chapter3_north:
     "这便是信息差最残忍的模样——信徒至死不渝，帝王至死不知。"
 
     stop music fadeout 3.0
+
+    hide char_zhaotieshuan_hand
+    with portrait_fade
+
     scene bg_black with ink_transition
 
     $ renpy.force_autosave()

@@ -2,7 +2,7 @@
 # 后世定论，说书人盖棺
 
 label chapter1_market:
-    scene bg_teahouse with ink_transition
+    scene bg_teahouse_wide with ink_transition
     play music "audio/bgm/bgm_market.mp3" fadein 2.0
 
     "大顺开国二十三年。京城西市，一间老茶馆。"
@@ -12,6 +12,9 @@ label chapter1_market:
     "说书人上了台。一张方桌，一把折扇，一块醒木。"
 
     "醒木一拍。堂下渐静。"
+
+    scene bg_teahouse_stage with ink_transition
+    show char_storyteller_half at right_pos with portrait_enter
 
     storyteller "列位，今儿说的这段不算新鲜。可有些事啊，越搁越沉，不说不行。"
 
@@ -24,6 +27,9 @@ label chapter1_market:
     storyteller "到了第六年——皇帝急了。他一怒之下，颁了《大顺律》。"
 
     "堂下有人低声议论。说书人折扇一合，声音压低了几分。"
+
+    scene bg_teahouse_audience with ink_transition
+    show char_group_teahouse at bottom_pos with portrait_dim
 
     storyteller "这律法厉害。许百姓告官，许百姓审官。古往今来，哪朝哪代敢这么干？这是把刀递到了百姓手里啊。"
 
@@ -51,6 +57,8 @@ label chapter1_market:
 
     "茶馆外一阵风吹过，卷起几片落叶。日头西斜了些，光柱里的尘埃暗了半分。"
 
+    scene bg_teahouse_window with ink_transition
+
     storyteller "后世定论——《大顺律》，祸国之法。"
 
     storyteller "至于真相如何……"
@@ -68,6 +76,11 @@ label chapter1_market:
     "这便是一切悲剧的源头。"
 
     stop music fadeout 3.0
+
+    hide char_storyteller_half
+    hide char_group_teahouse
+    with portrait_fade
+
     scene bg_black with ink_transition
 
     $ renpy.force_autosave()
