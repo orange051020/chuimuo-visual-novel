@@ -7,3 +7,7 @@ __pycache__/
 adapt_web.py
 *.update
 *.update.gz
+log.txt
+game_screenshot.png
+build-web.zip
+game/saves/
