@@ -2,13 +2,14 @@
 # 角色定义、图片定义、转场定义、游戏启动
 
 ## 角色定义
-
-define narrator = Character(None)
-define storyteller = Character("说书人", color="#8B3A3A")
-define emperor = Character("李东升", color="#5B7A8C")
-define liusilian = Character("刘思廉", color="#8B6B4A")
-define guziming = Character("顾子明", color="#6B4B3A")
-define zhaotieshuan = Character("赵铁栓", color="#6B6B5A")
+# 带立绘回调的角色：说话时自动触发立绘显示/高亮
+# 旁白角色：说话时自动隐藏所有立绘
+define narrator = Character(None, callback=make_narration_callback())
+define storyteller = Character("说书人", color="#8B3A3A", callback=make_portrait_callback('storyteller'))
+define emperor = Character("李东升", color="#5B7A8C", callback=make_portrait_callback('emperor'))
+define liusilian = Character("刘思廉", color="#8B6B4A", callback=make_portrait_callback('liusilian'))
+define guziming = Character("顾子明", color="#6B4B3A", callback=make_portrait_callback('guziming'))
+define zhaotieshuan = Character("赵铁栓", color="#6B6B5A", callback=make_portrait_callback('zhaotieshuan'))
 define teaguest = Character("茶客", color="#7A6B5A")
 define maid = Character("内侍", color="#5A5A5A")
 define officer = Character("军官", color="#5A5A5A")
@@ -24,15 +25,8 @@ image bg_court = "images/backgrounds/bg_court.webp"
 image bg_camp = "images/backgrounds/bg_camp.webp"
 image bg_black = Solid("#1A1A1A")
 
-# 角色立绘
-image char_emperor = "images/characters/char_emperor.webp"
-image char_liusilian = "images/characters/char_liusilian.webp"
-image char_majing = "images/characters/char_majing.webp"
-image char_guziming = "images/characters/char_guziming.webp"
-image char_xushuniang = "images/characters/char_xushuniang.webp"
-image char_lichengying = "images/characters/char_lichengying.webp"
-image char_hantieshan = "images/characters/char_hantieshan.webp"
-image char_zhaotieshuan = "images/characters/char_zhaotieshuan.webp"
+# 角色立绘定义已迁移至 character_display.rpy
+# 包含36张水墨剪影立绘 + 对话显示逻辑系统
 
 ## 转场定义
 
