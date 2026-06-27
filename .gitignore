@@ -1,0 +1,8 @@
+game/cache/
+game/saves/
+*.rpyc
+log.txt
+traceback.txt
+errors.txt
+build-web/*
+!build-web/.gitkeep
