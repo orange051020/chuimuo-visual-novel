@@ -15,7 +15,27 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  check-build:
+    runs-on: ubuntu-latest
+    outputs:
+      exists: ${{ steps.check.outputs.exists }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check web build
+        id: check
+        run: |
+          if [ -f build-web/index.html ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "build-web/index.html is not present yet; skipping Pages deploy until external assets are imported and renpyweb compile succeeds."
+          fi
+
   deploy:
+    needs: check-build
+    if: needs.check-build.outputs.exists == 'true'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -23,9 +43,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Verify web build exists
-        run: test -f build-web/index.html
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
