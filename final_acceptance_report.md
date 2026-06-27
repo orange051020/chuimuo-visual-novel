@@ -30,26 +30,10 @@
 
 ### C:\Program Files\nodejs\node.exe work/tests/validate_project.js
 
-Exit code: 1
+Exit code: 0
 
 ```text
-C:\Users\12726\Documents\Codex\2026-06-27\game-studio-plugin-game-studio-openai-2\work\tests\validate_project.js:52
-  if (!text.includes(needle)) throw new Error(`${label} missing: ${needle}`);
-                              ^
-
-Error: 投放说明.md missing: external-art-drop
-    at assertContains (C:\Users\12726\Documents\Codex\2026-06-27\game-studio-plugin-game-studio-openai-2\work\tests\validate_project.js:52:37)
-    at C:\Users\12726\Documents\Codex\2026-06-27\game-studio-plugin-game-studio-openai-2\work\tests\validate_project.js:380:23
-    at Array.forEach (<anonymous>)
-    at Object.<anonymous> (C:\Users\12726\Documents\Codex\2026-06-27\game-studio-plugin-game-studio-openai-2\work\tests\validate_project.js:380:3)
-    at Module._compile (node:internal/modules/cjs/loader:1830:14)
-    at Object..js (node:internal/modules/cjs/loader:1961:10)
-    at Module.load (node:internal/modules/cjs/loader:1553:32)
-    at Module._load (node:internal/modules/cjs/loader:1355:12)
-    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
-    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
-
-Node.js v24.15.0
+Project validation passed.
 ```
 
 ### C:\Program Files\nodejs\node.exe work/tests/validate_assets_ready.js
