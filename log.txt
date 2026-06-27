@@ -1,0 +1,163 @@
+2026-06-27 06:44:03 UTC
+Windows-11-10.0.26200-SP0
+Ren'Py 8.5.3.26051504
+
+Early init took 31 ms
+Loading error handling took 25 ms
+Loading script took 597 ms
+Loading save slot metadata took 41 ms
+Loading persistent took 1 ms
+Running init code took 41 ms
+Loading analysis data took 0 ms
+Analyze and compile ATL took 0 ms
+Reloading save slot metadata took 0 ms
+Backing up script files to 'C:\\Users\\12726\\AppData\\Roaming/RenPy/backups\\chuimuo-visual-novel':
+Dump and make backups took 14 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 28 ms
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 13 ms
+Save screen analysis took 7 ms
+Save pyanalysis took 0 ms
+Save bytecode took 21 ms
+﻿Ren'Py 8.5.3.26051504 lint report, generated at: Sat Jun 27 14:44:04 2026
+
+game/story/asset_manifest.rpy:5 Image bg teahouse_wide uses file 'images/background/bg_teahouse_wide.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:6 Image bg teahouse_stage uses file 'images/background/bg_teahouse_stage.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:7 Image bg teahouse_audience uses file 'images/background/bg_teahouse_audience.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:8 Image bg teahouse_window uses file 'images/background/bg_teahouse_window.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:9 Image bg bedchamber_wide uses file 'images/background/bg_bedchamber_wide.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:10 Image bg bedchamber_candle uses file 'images/background/bg_bedchamber_candle.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:11 Image bg bedchamber_illusion uses file 'images/background/bg_bedchamber_illusion.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:12 Image bg study_flashback uses file 'images/background/bg_study_flashback.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:13 Image bg court_flashback uses file 'images/background/bg_court_flashback.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:14 Image bg northwest_flashback uses file 'images/background/bg_northwest_flashback.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:15 Image bg bedchamber_end uses file 'images/background/bg_bedchamber_end.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:16 Image bg village_distant uses file 'images/background/bg_village_distant.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:17 Image bg village_tree uses file 'images/background/bg_village_tree.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:18 Image bg square_flashback uses file 'images/background/bg_square_flashback.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:19 Image bg paper_closeup uses file 'images/background/bg_paper_closeup.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:20 Image bg mansion_wide uses file 'images/background/bg_mansion_wide.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:21 Image bg mansion_desk uses file 'images/background/bg_mansion_desk.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:22 Image bg mansion_window uses file 'images/background/bg_mansion_window.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:23 Image bg mansion_toast uses file 'images/background/bg_mansion_toast.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:24 Image bg ending_text uses file 'images/background/bg_ending_text.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:25 Image bg mainmenu uses file 'images/background/bg_mainmenu.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:26 Image bg save uses file 'images/background/bg_save.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:27 Image bg settings uses file 'images/background/bg_settings.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:28 Image bg scroll uses file 'images/background/bg_scroll.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:30 Image char_storyteller_half_normal uses file 'images/character/char_storyteller_half_normal.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:31 Image char_storyteller_full uses file 'images/character/char_storyteller_full.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:32 Image char_li_half_lie uses file 'images/character/char_li_half_lie.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:33 Image char_li_half_angry uses file 'images/character/char_li_half_angry.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:34 Image char_li_half_silent uses file 'images/character/char_li_half_silent.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:35 Image char_li_full_young uses file 'images/character/char_li_full_young.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:36 Image char_li_closeup_hand uses file 'images/character/char_li_closeup_hand.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:37 Image char_liu_half_sit uses file 'images/character/char_liu_half_sit.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:38 Image char_liu_half_argue uses file 'images/character/char_liu_half_argue.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:39 Image char_liu_half_back uses file 'images/character/char_liu_half_back.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:40 Image char_liu_closeup_hand uses file 'images/character/char_liu_closeup_hand.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:41 Image char_ma_half_armcross uses file 'images/character/char_ma_half_armcross.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:42 Image char_ma_half_sword uses file 'images/character/char_ma_half_sword.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:43 Image char_ma_full_toast uses file 'images/character/char_ma_full_toast.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:44 Image char_ma_closeup_hand uses file 'images/character/char_ma_closeup_hand.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:45 Image char_gu_half_bow uses file 'images/character/char_gu_half_bow.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:46 Image char_gu_half_breakdown uses file 'images/character/char_gu_half_breakdown.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:47 Image char_gu_half_kneel uses file 'images/character/char_gu_half_kneel.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:48 Image char_gu_closeup_hand uses file 'images/character/char_gu_closeup_hand.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:49 Image char_xu_half_sit uses file 'images/character/char_xu_half_sit.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:50 Image char_xu_half_side uses file 'images/character/char_xu_half_side.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:51 Image char_xu_full_illusion uses file 'images/character/char_xu_full_illusion.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:52 Image char_lichengying_half_stand uses file 'images/character/char_lichengying_half_stand.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:53 Image char_lichengying_half_hunch uses file 'images/character/char_lichengying_half_hunch.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:54 Image char_lichengying_full_illusion uses file 'images/character/char_lichengying_full_illusion.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:55 Image char_han_half_carry uses file 'images/character/char_han_half_carry.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:56 Image char_han_half_stern uses file 'images/character/char_han_half_stern.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:57 Image char_han_full_illusion uses file 'images/character/char_han_full_illusion.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:58 Image char_zhao_half_speak uses file 'images/character/char_zhao_half_speak.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:59 Image char_zhao_half_kneel uses file 'images/character/char_zhao_half_kneel.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:60 Image char_zhao_full_fall uses file 'images/character/char_zhao_full_fall.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:61 Image char_zhao_closeup_hand uses file 'images/character/char_zhao_closeup_hand.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:62 Image group_court_officals uses file 'images/character/group_court_officals.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:63 Image group_villagers uses file 'images/character/group_villagers.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:64 Image group_four_people uses file 'images/character/group_four_people.webp', which is not loadable.
+
+game/story/asset_manifest.rpy:65 Image group_tea_guests uses file 'images/character/group_tea_guests.webp', which is not loadable.
+It is advised to set config.check_conflicting_properties to True.
+
+
+Statistics:
+
+The game contains 229 dialogue blocks, containing 230 words and 4,249
+characters, for an average of 1.0 words and 19 characters per block.
+
+The game contains 1 menus, 60 images, and 0 screens.
+
+
+Lint is not a substitute for thorough testing. Remember to update Ren'Py
+before releasing. New releases fix bugs and improve compatibility.
