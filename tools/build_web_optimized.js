@@ -349,7 +349,7 @@ function buildLightweightIndex() {
     const save = () => localStorage.setItem(saveKey, JSON.stringify({ label: state.label, index: state.index, bg: state.bg, char: state.char }));
     const restore = () => { const s = JSON.parse(localStorage.getItem(saveKey) || "null"); if (!s) return false; state.label=s.label; state.index=s.index; setBg(s.bg); setChar(s.char); run(); return true; };
     function goto(label){ state.label = label; state.index = 0; run(); }
-    function next(){ if (state.waiting) return; state.index += 1; run(); }
+    function next(){ if (state.waiting || !state.story) return; state.index += 1; run(); }
     function showText(speaker, text){ els.centered.classList.add("hidden"); els.box.classList.remove("hidden"); els.choices.classList.add("hidden"); els.speaker.textContent = speaker || ""; els.text.textContent = text; }
     function run(){
       state.waiting = false;
