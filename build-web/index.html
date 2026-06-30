@@ -1,186 +1,9 @@
 <!doctype html>
-<html lang="en-us">
-
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>风暴中的大顺朝·垂暮序章</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="manifest" href="manifest.json" crossorigin="use-credentials" />
-  <link rel="icon" href="icons/icon-72x72.png" sizes="72x72" type="image/png" />
-  <link rel="icon" href="icons/icon-96x96.png" sizes="96x96" type="image/png" />
-  <link rel="icon" href="icons/icon-128x128.png" sizes="128x128" type="image/png" />
-  <link rel="icon" href="icons/icon-144x144.png" sizes="144x144" type="image/png" />
-  <link rel="icon" href="icons/icon-152x152.png" sizes="152x152" type="image/png" />
-  <link rel="icon" href="icons/icon-192x192.png" sizes="192x192" type="image/png" />
-  <link rel="icon" href="icons/icon-384x384.png" sizes="384x384" type="image/png" />
-  <link rel="icon" href="icons/icon-512x512.png" sizes="512x512" type="image/png" />
-  <!-- ios support -->
-  <link rel="apple-touch-icon" href="icons/icon-72x72.png" sizes="72x72" type="image/png" />
-  <link rel="apple-touch-icon" href="icons/icon-96x96.png" sizes="96x96" type="image/png" />
-  <link rel="apple-touch-icon" href="icons/icon-128x128.png" sizes="128x128" type="image/png" />
-  <link rel="apple-touch-icon" href="icons/icon-144x144.png" sizes="144x144" type="image/png" />
-  <link rel="apple-touch-icon" href="icons/icon-152x152.png" sizes="152x152" type="image/png" />
-  <link rel="apple-touch-icon" href="icons/icon-192x192.png" sizes="192x192" type="image/png" />
-  <link rel="apple-touch-icon" href="icons/icon-384x384.png" sizes="384x384" type="image/png" />
-  <link rel="apple-touch-icon" href="icons/icon-512x512.png" sizes="512x512" type="image/png" />
-
-  <meta name="theme-color" content="#000" />
-
-  <style>
-    html {
-      background: #444;
-      font-family: sans-serif;
-    }
-
-    body, html {
-      overscroll-behavior: none;
-    }
-
-    #canvas, #overlayDiv {
-      position: absolute;
-      top: 0px;
-      left: 0px;
-
-      width: 100%;
-      height: 100%;
-
-      border: 0 none;
-    }
-
-    #canvas {
-      background: #000;
-    }
-
-    .visible {
-      visibility: visible;
-      opacity: 1.0;
-      transition: opacity .1s linear;
-    }
-
-    .hidden {
-      visibility: hidden;
-      opacity: 0;
-      transition: visibility 0s .25s, opacity .25s linear;
-    }
-
-    #statusDiv, #inputDiv {
-      background: rgba(0, 0, 0, 0.75);
-      width: 50%;
-      margin: auto;
-      min-width: 340px;
-      padding: 10px;
-
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-
-      border-radius: 0 0 5px 5px;
-    }
-
-    #statusTextDiv {
-      overflow: auto;
-      max-height: 40vh;
-      color: #ccc;
-      font-size: 14px;
-    }
-
-    #statusProgress {
-      display: none;
-      width: 100%;
-    }
-
-    #inputDiv {
-      width: 65%;
-      padding-left: 10px;
-      padding-right: 20px;
-    }
-
-    #inputPrompt {
-      color: #eee;
-      font-size: 150%;
-      margin-bottom: 1em;
-      margin-top: 1em;
-
-    }
-
-    #inputText {
-      width: 100%;
-      font-size: 175%;
-      padding: 5px;
-      background: inherit;
-      color: #eee;
-    }
-
-    #inputText:focus {
-      color: #ffffff;
-    }
-
-    #ContextContainer {
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      color: white;
-    }
-
-    #ContextContainer.shown {
-      background: rgba(0, 0, 0, 0.5);
-      border-radius: 0px 0px 5px 0px;
-    }
-
-    #ContextButton {
-      text-decoration: none;
-      color: lightgrey;
-      font-size: xx-large;
-      cursor: pointer;
-      user-select: none;
-      -moz-user-select: none;
-      padding: 10px 10px;
-      opacity: .75;
-    }
-
-    #ContextButton:focus {
-      outline: none;
-      color: #ffffff;
-      opacity: 1.0;
-    }
-
-    #ContextMenu a {
-      text-decoration: none;
-      color: lightgrey;
-      background: #444;
-      height: 48px;
-      width: 250px;
-      border-radius: 5px;
-      border: 1px solid lightgrey;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 5px 5px;
-      opacity: 1.0;
-    }
-
-    #ContextMenu a:hover {
-      text-decoration: none;
-      background: #666666;
-      color: #ffffff
-    }
-
-    #presplash {
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: block;
-        margin: auto;
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-    }
-
-  </style>
-
-
   <meta name="description" content="架空历史悬疑水墨风视觉小说，一段关于理想、信息差与时代悲剧的故事">
   <meta property="og:type" content="website">
   <meta property="og:title" content="风暴中的大顺朝·垂暮序章">
@@ -190,55 +13,85 @@
   <meta name="twitter:title" content="风暴中的大顺朝·垂暮序章">
   <meta name="twitter:description" content="架空历史悬疑水墨风视觉小说，一段关于理想、信息差与时代悲剧的故事">
   <meta name="twitter:image" content="game/images/background/bg_mainmenu.webp">
-
+  <style>
+    @font-face{font-family:ChuiMuo;src:url("game/fonts/NotoSansSC-Regular.subset.otf") format("opentype");font-display:swap}
+    @font-face{font-family:ChuiMuo;font-weight:700;src:url("game/fonts/NotoSansSC-Bold.subset.otf") format("opentype");font-display:swap}
+    *{box-sizing:border-box} html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#090806;color:#f3ead8;font-family:ChuiMuo,"Microsoft YaHei",sans-serif}
+    #app{position:relative;width:100vw;height:100vh;background:#090806;isolation:isolate}
+    .bg{position:absolute;inset:0;background:#090806 center/cover no-repeat;transition:opacity .45s ease;z-index:0}
+    .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.12),rgba(0,0,0,.35) 58%,rgba(0,0,0,.62));pointer-events:none}
+    .char{position:absolute;right:4vw;bottom:0;max-height:min(82vh,760px);max-width:48vw;object-fit:contain;filter:drop-shadow(0 18px 28px rgba(0,0,0,.35));transition:opacity .35s ease,transform .35s ease;z-index:1}
+    .top{position:absolute;left:16px;top:12px;z-index:5;display:flex;gap:10px;align-items:center}
+    button{font-family:inherit;border:1px solid rgba(242,222,180,.42);background:rgba(21,17,12,.72);color:#f5ead2;border-radius:6px;padding:10px 14px;cursor:pointer}
+    button:hover{background:rgba(70,46,30,.82)}
+    .menuBtn{width:40px;height:40px;padding:0;font-size:24px;line-height:1}
+    .panel{position:absolute;right:16px;top:62px;z-index:6;display:none;gap:8px;flex-direction:column}.panel.open{display:flex}
+    .box{position:absolute;left:50%;bottom:4.5vh;transform:translateX(-50%);width:min(1180px,calc(100vw - 48px));min-height:168px;z-index:3;background:rgba(238,229,209,.88);color:#211912;border:1px solid rgba(80,54,30,.25);box-shadow:0 18px 42px rgba(0,0,0,.35);padding:26px 34px;border-radius:8px}
+    .speaker{color:#8b3a3a;font-weight:700;font-size:24px;margin-bottom:10px;min-height:28px}
+    .text{font-size:28px;line-height:1.72;letter-spacing:0}
+    .centered{position:absolute;inset:0;display:grid;place-items:center;z-index:4;font-size:30px;text-align:center;background:#050505;color:#f4ead8;padding:24px}
+    .choices{display:flex;flex-direction:column;gap:12px;margin-top:12px}.choices button{font-size:24px;padding:14px 18px;background:rgba(245,232,204,.95);color:#211912}
+    .hint{position:absolute;right:28px;bottom:18px;color:rgba(33,25,18,.58);font-size:16px}.hidden{display:none!important}
+    @media (max-width:760px){.char{right:-12vw;max-width:70vw;max-height:68vh}.box{width:calc(100vw - 24px);bottom:2vh;padding:18px 20px;min-height:150px}.text{font-size:22px}.speaker{font-size:20px}.centered{font-size:24px}}
+  </style>
 </head>
-
 <body>
-  <canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex=-1></canvas>
-  <div id="overlayDiv"></div>
-
-  <img id="presplash" src="web-presplash.jpg">
-
-  <div id="ContextContainer">
-    <a id="ContextButton">&#8801;</a><br />
-    <div id="ContextMenu" style="display: none;">
-      <input id="ID_SavegamesImport" type="file" onchange="onSavegamesImport(this)" accept="application/zip"
-        style=display:none></input>
-      <a href="javascript:document.getElementById('ID_SavegamesImport').click();">Import Saves</a>
-      <a href="javascript:onSavegamesExport();">Export Saves</a>
-      <a href="javascript:FSDownload('/log.txt', 'text/plain');">Download Log</a>
-      <a href="https://www.renpy.org/" target="_blank">
-          Powered by Ren'Py
-      </a>
-      </span>
-    </div>
+  <div id="app">
+    <div id="bg" class="bg"></div>
+    <img id="char" class="char hidden" alt="">
+    <div class="top"><button id="menuBtn" class="menuBtn" aria-label="菜单">≡</button></div>
+    <div id="panel" class="panel"><button id="saveBtn">保存</button><button id="loadBtn">读取</button><button id="restartBtn">重新开始</button><button onclick="location.href='renpy.html'">Ren'Py版</button></div>
+    <div id="centered" class="centered hidden"></div>
+    <div id="box" class="box"><div id="speaker" class="speaker"></div><div id="text" class="text"></div><div id="choices" class="choices hidden"></div><div class="hint">点击继续</div></div>
   </div>
-
-  <div id="statusDiv" class="hidden">
-    <div id="statusTextDiv"></div>
-    <progress id="statusProgress" value="0" max="100"></progress>
-  </div>
-
-  <div id="inputDiv" class="hidden">
-    <form id="inputForm">
-      <div id="inputPrompt"></div>
-      <input id="inputText" type="text">
-    </form>
-  </div>
-
   <script>
-      // The URL to game.zip, relative to the URL of this file.
-      window.gameZipURL = 'game.zip?v=20260630-official-fast-font';
-
-      // Register the service worker.
-      if (navigator.serviceWorker) {
-          if (!navigator.serviceWorker.controller) {
-              navigator.serviceWorker.register('./service-worker.js', { updateViaCache: 'all' });
-          }
+  (() => {
+    const state = { label: "", index: 0, bg: "", char: "", waiting: false, story: null };
+    const els = {
+      bg: document.getElementById("bg"), char: document.getElementById("char"), box: document.getElementById("box"),
+      speaker: document.getElementById("speaker"), text: document.getElementById("text"), choices: document.getElementById("choices"),
+      centered: document.getElementById("centered"), panel: document.getElementById("panel")
+    };
+    const saveKey = "chuimuo-light-save";
+    const preload = src => src ? new Promise(r => { const i = new Image(); i.onload = i.onerror = r; i.src = src; }) : Promise.resolve();
+    const setBg = src => { state.bg = src; els.bg.style.backgroundImage = src ? 'url("' + src + '")' : "none"; };
+    const setChar = src => { state.char = src; if (src) { els.char.src = src; els.char.classList.remove("hidden"); } else els.char.classList.add("hidden"); };
+    const save = () => localStorage.setItem(saveKey, JSON.stringify({ label: state.label, index: state.index, bg: state.bg, char: state.char }));
+    const restore = () => { const s = JSON.parse(localStorage.getItem(saveKey) || "null"); if (!s) return false; state.label=s.label; state.index=s.index; setBg(s.bg); setChar(s.char); run(); return true; };
+    function goto(label){ state.label = label; state.index = 0; run(); }
+    function next(){ if (state.waiting) return; state.index += 1; run(); }
+    function showText(speaker, text){ els.centered.classList.add("hidden"); els.box.classList.remove("hidden"); els.choices.classList.add("hidden"); els.speaker.textContent = speaker || ""; els.text.textContent = text; }
+    function run(){
+      state.waiting = false;
+      const steps = state.story.labels[state.label] || [];
+      for (;;) {
+        const step = steps[state.index];
+        if (!step) { showText("", ""); return; }
+        if (step.type === "scene") { setBg(step.src); setChar(""); state.index += 1; continue; }
+        if (step.type === "show") { setChar(step.src); state.index += 1; continue; }
+        if (step.type === "hide") { setChar(""); state.index += 1; continue; }
+        if (step.type === "jump") { goto(step.target); return; }
+        if (step.type === "pause") { state.index += 1; setTimeout(run, Math.min(1600, (step.seconds || 0) * 1000)); return; }
+        if (step.type === "centered") { els.box.classList.add("hidden"); els.centered.textContent = step.text; els.centered.classList.remove("hidden"); return; }
+        if (step.type === "say") { showText(step.speaker, step.text); return; }
+        if (step.type === "menu") { showText("", ""); els.choices.innerHTML = ""; els.choices.classList.remove("hidden"); for (const opt of step.options) { const b=document.createElement("button"); b.textContent=opt.text; b.onclick=e=>{e.stopPropagation(); goto(opt.target);}; els.choices.appendChild(b); } return; }
+        if (step.type === "end") { showText("", "剧终"); return; }
+        state.index += 1;
       }
+    }
+    document.getElementById("menuBtn").onclick = e => { e.stopPropagation(); els.panel.classList.toggle("open"); };
+    document.getElementById("saveBtn").onclick = e => { e.stopPropagation(); save(); };
+    document.getElementById("loadBtn").onclick = e => { e.stopPropagation(); restore(); };
+    document.getElementById("restartBtn").onclick = e => { e.stopPropagation(); localStorage.removeItem(saveKey); setBg(""); setChar(""); goto(state.story.start); };
+    document.body.addEventListener("click", () => next());
+    document.body.addEventListener("keydown", e => { if (e.key === " " || e.key === "Enter") next(); });
+    fetch("story.json?v=20260630-light").then(r => r.json()).then(async story => {
+      state.story = story; state.label = story.start;
+      const first = story.labels[story.start].find(s => s.type === "scene" && s.src);
+      if (first) await preload(first.src);
+      run();
+    }).catch(err => showText("加载失败", String(err)));
+  })();
   </script>
-  <script src="renpy-pre.js"></script>
-  <script async type="text/javascript" src="renpy.js"></script>
 </body>
-
 </html>

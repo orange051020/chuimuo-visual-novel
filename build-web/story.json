@@ -1,0 +1,1272 @@
+{
+  "title": "风暴中的大顺朝·垂暮序章",
+  "description": "架空历史悬疑水墨风视觉小说，一段关于理想、信息差与时代悲剧的故事",
+  "start": "chapter_prologue",
+  "labels": {
+    "chapter_prologue": [
+      {
+        "type": "scene",
+        "name": "black",
+        "src": ""
+      },
+      {
+        "type": "centered",
+        "text": "风暴中的大顺朝"
+      },
+      {
+        "type": "pause",
+        "seconds": 1
+      },
+      {
+        "type": "centered",
+        "text": "序章：垂暮"
+      },
+      {
+        "type": "pause",
+        "seconds": 1
+      },
+      {
+        "type": "jump",
+        "target": "prologue_fragment_01_storyteller"
+      }
+    ],
+    "prologue_fragment_01_storyteller": [
+      {
+        "type": "scene",
+        "name": "bg teahouse_stage",
+        "src": "game/images/background/bg_teahouse_stage.webp"
+      },
+      {
+        "type": "show",
+        "name": "char_storyteller_half_normal",
+        "src": "game/images/character/char_storyteller_half_normal.webp"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国十九年。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "京城茶肆里，雨水顺着檐角落下，一滴一滴，敲在青石上。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "桌案前的醒木被人轻轻一拍，满堂闲话便像被刀切断。"
+      },
+      {
+        "type": "say",
+        "speaker": "说书人",
+        "text": "诸位，今日说一段旧朝近事。说的是大顺开国皇帝李东升，和那本祸乱天下的《大顺律》。"
+      },
+      {
+        "type": "say",
+        "speaker": "说书人",
+        "text": "那律法初颁时，说是替百姓撑腰。可到后来，民告官，兵告将，乡邻告乡邻，父子也能相互攀咬。"
+      },
+      {
+        "type": "say",
+        "speaker": "说书人",
+        "text": "北方一府，百姓借律冲了官衙；南方数县，士绅借民意杀得血流成河。到头来，田荒了，工场停了，官不敢办事，民不敢开口。"
+      },
+      {
+        "type": "say",
+        "speaker": "茶客",
+        "text": "这么说，都是那位老皇帝糊涂？"
+      },
+      {
+        "type": "say",
+        "speaker": "说书人",
+        "text": "糊涂不糊涂，小人不敢妄断。可史书上写得明白：晚年李东升偏信酷法，不听群臣劝谏，几乎把大顺江山拖进泥潭。"
+      },
+      {
+        "type": "say",
+        "speaker": "说书人",
+        "text": "幸亏刘思廉刘相公明断，马靖大将军果决，废了恶律，稳住兵马，才有如今这几年的安生日子。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "有人低声问起顾子明。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "那名字像一片潮湿的纸，被茶肆里的热气卷了一卷，又很快没人再提。"
+      },
+      {
+        "type": "say",
+        "speaker": "说书人",
+        "text": "顾阁老嘛，曾替皇帝起草律文。后来知错，跪请废律，也算给天下留了些体面。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "醒木再落。"
+      },
+      {
+        "type": "say",
+        "speaker": "说书人",
+        "text": "所以诸位须记住：乱世最怕的，不是没有法。"
+      },
+      {
+        "type": "say",
+        "speaker": "说书人",
+        "text": "是把刀递到人人手里，还说这便是公道。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "雨声忽然大了。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "茶肆中的笑声、叹息声、杯盏声，被风雨压成一片含混的黑。"
+      },
+      {
+        "type": "jump",
+        "target": "prologue_fragment_02_deathbed"
+      }
+    ],
+    "prologue_fragment_02_deathbed": [
+      {
+        "type": "scene",
+        "name": "bg bedchamber_wide",
+        "src": "game/images/background/bg_bedchamber_wide.webp"
+      },
+      {
+        "type": "show",
+        "name": "char_li_half_lie",
+        "src": "game/images/character/char_li_half_lie.webp"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国十八年。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "皇城深处，寝殿的门窗关得很紧。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "外头的雨声传进来时，已经轻得像隔世的回音。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "李东升躺在榻上。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他已经很久没有上朝了。奏疏被人一摞一摞送进来，又一摞一摞送出去。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他看见的，是誊清过的字。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他听见的，是筛过一遍又一遍的话。"
+      },
+      {
+        "type": "say",
+        "speaker": "李东升",
+        "text": "顾子明呢？"
+      },
+      {
+        "type": "say",
+        "speaker": "内侍",
+        "text": "顾阁老在殿外候着。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "李东升没有立刻让人进来。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他的眼睛望着帐顶，像望着一张很旧的军图。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他想起开国之前。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "明廷残余一路南逃，乘船退往安南、占城、吕宋一带，在海上立了一个所谓南明海廷。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "后金主力在北方会战中被打散，首领战死，残部退回关外深山，再也无力叩关。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "那时所有人都说，天下终于太平了。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "可李东升记得，自己当时并没有真正松一口气。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他站在新修的宫墙上，看着城外一片被战火烧过的田。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他心里只有一个问题。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "仗打完了，然后呢？"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国元年，他下令重新丈量土地。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "前朝宗室、官僚、豪强占下的荒田与良田，被一册一册写进新簿。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "无地的贫农，断手的老兵，拖着孩子的寡妇，都在衙门外排过长长的队。"
+      },
+      {
+        "type": "say",
+        "speaker": "李东升",
+        "text": "朕起兵时答应过他们，打下来的天下，不该再只养旧人。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他推行集体耕作。耕牛、农具、劳力统一调配。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "最初几年，北方确实有了笑声。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "有人把第一袋新粮送到县衙门口，跪下说皇上没有忘记苦人。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国二年到三年，海上来的佛郎机人、英吉利人带来了机器、冶铁法和火炮图样。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "李东升命刘思廉主持通商与工场之事。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "集体工场在重点州县立起，纺织机响起来，炉火在夜里照红了半条河。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "火器局也随之设立。"
+      },
+      {
+        "type": "say",
+        "speaker": "李东升",
+        "text": "南明在海上，佛郎机人在海上。将来威胁大顺的，未必还在北边。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他还暂停了科举。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "朝中有人说新朝当开恩科，以收天下读书人之心。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "李东升拒绝了。"
+      },
+      {
+        "type": "say",
+        "speaker": "李东升",
+        "text": "朕还没有把普及教育做好。现在开科举，无异于请前朝的人回来坐前朝的椅子。那朕建这个国，还有什么意义？"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "那时顾子明站在一旁，沉默很久，只说陛下此言，臣记下了。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "可是开国四年、五年，巡查御史送回来的密报越来越厚。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "地方官表面分田，背地里把良田留给自己人，把贫田分给百姓。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "工场账目真假难辨，层层盘剥之后，工人得到的只剩一点残汤。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "科举停了，举荐制却成了新的门路。举荐者与被举荐者互相缠绕，比旧日门生故吏更隐蔽。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "李东升杀过人。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他下令斩了贪官，也关过欺民的吏员。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他亲自写告示，用最朴素的话告诉百姓，田为什么要分，工场为什么要办，官为什么不能欺民。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "可那些东西像地里的杂草。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "割一茬，长一茬。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "烧一片，又从灰里冒出头来。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "李东升终于明白，旧秩序不是躲在某几个贪官的袖子里。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "它藏在衙门的门槛里，藏在账簿的墨迹里，藏在识字的人与不识字的人之间。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "于是开国六年春，他在御书房里写下了《大顺律》的第一行。"
+      },
+      {
+        "type": "say",
+        "speaker": "顾子明",
+        "text": "陛下，这是把天捅一个窟窿。"
+      },
+      {
+        "type": "say",
+        "speaker": "李东升",
+        "text": "那就捅。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他要给百姓每人一本有皇权背书的律。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "让他们能集体冲击官府，能当街审问贪官污吏，能在那些朱漆大门前抬起头来。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "顾子明没有再劝。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他只是伏在案边，把皇帝断断续续说出的话，写成严整、冷硬、可以传往天下的条文。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "但刘思廉劝过。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "那是在御书房，一个闷热得没有风的午后。"
+      },
+      {
+        "type": "say",
+        "speaker": "刘思廉",
+        "text": "陛下，百姓现在需要的是饭碗，不是刀。您把刀递给他们，他们就能用好吗？"
+      },
+      {
+        "type": "say",
+        "speaker": "李东升",
+        "text": "没有刀，他们的饭碗永远端不稳。"
+      },
+      {
+        "type": "say",
+        "speaker": "刘思廉",
+        "text": "那您有没有想过，这把刀，也可能被别有用心的人利用？"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "殿中安静了很久。"
+      },
+      {
+        "type": "say",
+        "speaker": "李东升",
+        "text": "思廉，你是不是在说……朕身边那四个人？"
+      },
+      {
+        "type": "say",
+        "speaker": "刘思廉",
+        "text": "臣不敢。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "从那天以后，他们之间便多了一道看不见的裂缝。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他们都还在为大顺操劳。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "只是一个向下看，想着百姓手里终于有了凭据。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "一个向前看，想着工场、税赋、粮价、兵饷，以及一旦失控便再也收不回来的秩序。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国六年夏，《大顺律》在京畿三府试点。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "徐淑娘建立第一批监察女官。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国七年，试点反馈两极。有人扳倒贪官，也有人借律生事。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "李东升选择相信那些利民的捷报。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国八年，律法推广北方。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "李承英赴地方督办，韩铁山借律整肃北境将领。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国九年，各地捷报陆续回京。赵铁栓这样的老兵成了民间宣讲员。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "那是李东升最后真正感到欣慰的一年。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他不知道，那些消息已经在路上走了数月。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "也不知道被呈到他眼前时，已经被修剪得像御花园里的枝叶。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国十年，监察女官造出冤案。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国十一年，刘思廉拿着经济乱象的统计入朝请修律，被他驳回。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国十二年，韩铁山借律法清洗异己，军报却写成整肃军纪。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国十三年，士绅操纵民告官，真假民意混杂成泥。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国十四年，顾子明看完全国密报，亲眼见过村落因律法互斗死伤过半。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "顾子明写了一封废止奏疏。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他没有递。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "那一年，他每日入阁，每日退朝，每日都像背着一口无人看见的棺材。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国十五年春，北方士绅煽动民乱，借律法屠戮知府满门。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "真相滞后一月才到京城，入京时只剩四个字。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "律法致乱。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国十五年夏，刘思廉公开请废《大顺律》。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "顾子明跪在殿上，以起草者身份请皇帝收回成命。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "李东升看着他，像看着一盏忽然熄灭的灯。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国十五年秋，刘思廉与马靖联手逼宫。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国十六年春，《大顺律》正式废止。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "废止诏令传遍天下，又用了数月。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "从那以后，李东升停朝闭门。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他知道自己的律法败了。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "却不知道律法废止后的夏秋，旧势力开始反攻倒算。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "不知道所有支持过律法的人被抓捕、审问、清算。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "不知道赵铁栓这样的底层信徒，至死还在等皇帝知道这一切。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "寝殿外，有人轻轻叩门。"
+      },
+      {
+        "type": "say",
+        "speaker": "内侍",
+        "text": "陛下，顾阁老还在外头。"
+      },
+      {
+        "type": "say",
+        "speaker": "李东升",
+        "text": "不见了。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他闭上眼。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "这一生有太多声音。马蹄声，炮声，百姓谢恩的哭声，群臣争执的声音。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "到最后，所有声音都远了。"
+      },
+      {
+        "type": "menu",
+        "options": [
+          {
+            "text": "开口留下遗言",
+            "target": "prologue_ending_words"
+          },
+          {
+            "text": "默然离世",
+            "target": "prologue_ending_silence"
+          }
+        ]
+      }
+    ],
+    "prologue_ending_words": [
+      {
+        "type": "say",
+        "speaker": "李东升",
+        "text": "老百姓以后会怎么样，只有天知道。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "话音落下后，殿中的烛火晃了一下。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "没有人知道他是在问天，还是在问自己。"
+      },
+      {
+        "type": "jump",
+        "target": "prologue_fragment_03_zhao"
+      }
+    ],
+    "prologue_ending_silence": [
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "李东升睁着眼。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他的目光空空落在帐顶，像还在等一封永远不会送到的奏报。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "直到烛泪滴尽，他也没有再说一个字。"
+      },
+      {
+        "type": "jump",
+        "target": "prologue_fragment_03_zhao"
+      }
+    ],
+    "prologue_fragment_03_zhao": [
+      {
+        "type": "scene",
+        "name": "bg village_distant",
+        "src": "game/images/background/bg_village_distant.webp"
+      },
+      {
+        "type": "show",
+        "name": "char_zhao_half_kneel",
+        "src": "game/images/character/char_zhao_half_kneel.webp"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国十七年。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "北方，旧军屯旁的村子。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "雪还没化干净，荒田里露出一截一截黑色的土。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "赵铁栓年轻时跟着李东升打过仗。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他记得西北风里的旗，记得攻城前分到的半块饼，也记得皇帝还不是皇帝时说过的话。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "李东升说，打下来的天下，要让穷人也能站着活。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "后来真分了田。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "赵铁栓分到三亩半，地不肥，可他把第一捧土攥在手里时，哭得像个孩子。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "再后来，《大顺律》到了县里。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他识字不多，就一字一句跟着先生念。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "念到百姓可集众鸣冤，念到官吏欺民者当众审问，他把那本律书包在油布里，夜里睡觉都放在枕边。"
+      },
+      {
+        "type": "say",
+        "speaker": "赵铁栓",
+        "text": "皇上没忘了咱。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他成了乡里的宣讲人。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "谁家被吏员多收了粮，他陪着去衙门。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "谁家的地被豪强侵了，他捧着律书站在门前。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "最初也真的赢过几回。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "可后来，事情变了。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "有人拿着律书告邻人，有人被士绅教会了状词，有人白日里喊公道，夜里收银子。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "赵铁栓说不明白。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他只觉得那本书还是那本书，可人心一乱，字也像被泥糊住了。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国十六年春，废律的诏令终于传到这里。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "县城门口贴了新告示。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "从前借《大顺律》冲击官府、审问官吏、聚众鸣冤者，一律重查。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "赵铁栓看了很久。"
+      },
+      {
+        "type": "say",
+        "speaker": "赵铁栓",
+        "text": "这不是皇上的意思。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "没人回答他。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "夏天之后，旧日被告过的乡绅回来了。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他们带着新任的吏员，带着账簿，带着绳索。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "支持过律法的人，一个一个被叫到祠堂。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "有人认罪，有人攀咬，有人说当年都是赵铁栓教的。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "赵铁栓没有逃。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他把油布包着的《大顺律》放进怀里。"
+      },
+      {
+        "type": "say",
+        "speaker": "乡绅",
+        "text": "律已经废了，你还抱着它做什么？"
+      },
+      {
+        "type": "say",
+        "speaker": "赵铁栓",
+        "text": "废的是纸，不是理。"
+      },
+      {
+        "type": "say",
+        "speaker": "乡绅",
+        "text": "理？现在谁还替你讲理？"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "赵铁栓抬头望向南边。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "京城太远了。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "远到一封奏报走几个月，远到皇城里的烛火照不到这个村口。"
+      },
+      {
+        "type": "say",
+        "speaker": "赵铁栓",
+        "text": "皇上会知道的。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "周围有人笑，也有人哭。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "赵铁栓却像没听见。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他想起开国九年，县令把捷报送往京城时，曾让他站在衙门外。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "那时他们都说，大顺会越来越好。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "绳索勒紧时，他怀里的律书掉在泥里。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "雨水把墨迹泡开，字与字连成一片黑。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "赵铁栓到死都不知道。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他等着知道这一切的那个人，已经在深宫中悄无声息地死去。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "而他自己的死，也从未传进那座宫城。"
+      },
+      {
+        "type": "jump",
+        "target": "prologue_fragment_04_south"
+      }
+    ],
+    "prologue_fragment_04_south": [
+      {
+        "type": "scene",
+        "name": "bg mansion_wide",
+        "src": "game/images/background/bg_mansion_wide.webp"
+      },
+      {
+        "type": "show",
+        "name": "char_liu_half_sit",
+        "src": "game/images/character/char_liu_half_sit.webp"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "开国十九年。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "南方行辕里，灯火彻夜不熄。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "桌上摊着海贸税册、工场账目、军饷清册，以及新修的地方官考课章程。"
+      },
+      {
+        "type": "say",
+        "speaker": "刘思廉",
+        "text": "今年海贸税入，比去年多三成。沿海工场若能稳住，明年可减北方两省徭役。"
+      },
+      {
+        "type": "say",
+        "speaker": "马靖",
+        "text": "北方呢？"
+      },
+      {
+        "type": "say",
+        "speaker": "刘思廉",
+        "text": "还乱。但能压住。"
+      },
+      {
+        "type": "say",
+        "speaker": "马靖",
+        "text": "压得住，不等于治得好。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "刘思廉停笔。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他看向灯下的纸，许久没有说话。"
+      },
+      {
+        "type": "say",
+        "speaker": "刘思廉",
+        "text": "我知道。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他们都知道。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "李东升不是恶人。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "那个在西北风沙里带人起兵的人，那个登基后第一件事便分田的人，那个暂停科举、办教育、建工场、造火器的人，从来不是为了毁掉大顺。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "可是一个国家不能只靠初心维持。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "工场要粮，军队要饷，商路要秩序，地方要有人办事。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "当每一处衙门都可能被冲开，每一本律书都可能被人借去报私仇，刘思廉看见的不是新天下。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "是天下重新滑回战乱。"
+      },
+      {
+        "type": "say",
+        "speaker": "马靖",
+        "text": "你后悔吗？"
+      },
+      {
+        "type": "say",
+        "speaker": "刘思廉",
+        "text": "后悔什么？"
+      },
+      {
+        "type": "say",
+        "speaker": "马靖",
+        "text": "逼宫。废律。让史官那么写他。"
+      },
+      {
+        "type": "say",
+        "speaker": "刘思廉",
+        "text": "史官不那么写，天下就会再问一遍：既然皇帝没错，那是谁错了？"
+      },
+      {
+        "type": "say",
+        "speaker": "马靖",
+        "text": "也许本就没人能独自担这个错。"
+      },
+      {
+        "type": "say",
+        "speaker": "刘思廉",
+        "text": "百姓要日子过下去，朝廷要政令走得动。史书不能写得太复杂。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "这话说出口后，屋里更静了。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "窗外有船号声远远传来。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "海贸、工场、税赋、军队，一切都在重新转动。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "只是那些被清算的人，那些抱着旧律书死去的人，那些曾经把皇帝当成最后公道的人，都没有在新账册里留下名字。"
+      },
+      {
+        "type": "say",
+        "speaker": "马靖",
+        "text": "顾子明呢？"
+      },
+      {
+        "type": "say",
+        "speaker": "刘思廉",
+        "text": "闭门不出。"
+      },
+      {
+        "type": "say",
+        "speaker": "马靖",
+        "text": "他当年为什么压着废止奏疏一年？"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "刘思廉没有回答。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "也许顾子明自己都不能回答。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他是起草《大顺律》的人，也是最早看见它变成屠刀的人。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他知道呈上奏疏，便等于亲手宣告皇帝一生最重的理想失败。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "他也知道不呈上去，会有更多人死。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "那一年，他在两种罪里沉默。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "沉默到再也没有一条路是干净的。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "刘思廉合上账册。"
+      },
+      {
+        "type": "say",
+        "speaker": "刘思廉",
+        "text": "京城那边，说书已经开始了？"
+      },
+      {
+        "type": "say",
+        "speaker": "马靖",
+        "text": "开始了。"
+      },
+      {
+        "type": "say",
+        "speaker": "刘思廉",
+        "text": "怎么说？"
+      },
+      {
+        "type": "say",
+        "speaker": "马靖",
+        "text": "说《大顺律》祸国，先帝晚年偏执，刘相与马帅拨乱反正。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "刘思廉低低笑了一声。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "那笑声没有得意，只有疲惫。"
+      },
+      {
+        "type": "say",
+        "speaker": "刘思廉",
+        "text": "太简单了。"
+      },
+      {
+        "type": "say",
+        "speaker": "马靖",
+        "text": "简单，才传得远。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "灯火摇晃。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "茶肆里的醒木声、寝殿里的雨声、北方村口的风声、行辕里的翻纸声，在黑暗中慢慢重叠。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "有人写史，有人说史，有人死在史书之外。"
+      },
+      {
+        "type": "say",
+        "speaker": "",
+        "text": "而真正知道全部真相的人，不是死了，便是沉默。"
+      },
+      {
+        "type": "jump",
+        "target": "prologue_common_ending"
+      }
+    ],
+    "prologue_common_ending": [
+      {
+        "type": "scene",
+        "name": "black",
+        "src": ""
+      },
+      {
+        "type": "centered",
+        "text": "百姓心中有杆秤 时间会证明一切"
+      },
+      {
+        "type": "pause",
+        "seconds": 3
+      },
+      {
+        "type": "scene",
+        "name": "black",
+        "src": ""
+      },
+      {
+        "type": "end"
+      }
+    ]
+  }
+}
