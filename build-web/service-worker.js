@@ -1,4 +1,4 @@
-var cacheName = 'renpy-web-game';
+var cacheName = 'chuimuo-web-game-20260630-game-dir-fix';
 
 /* Start the service worker and cache all of the app's content or use the existing one */
 self.addEventListener('install', function (e) {

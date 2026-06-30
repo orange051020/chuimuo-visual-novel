@@ -131,6 +131,20 @@ index = index.replace(
   new RegExp("<title>.*?</title>"),
   "<title>\u98ce\u66b4\u4e2d\u7684\u5927\u987a\u671d\u00b7\u5782\u66ae\u5e8f\u7ae0</title>"
 );
+index = index.replace(
+  "window.gameZipURL = 'game.zip';",
+  "window.gameZipURL = 'game.zip?v=20260630-game-dir-fix';"
+);
 fs.writeFileSync(indexPath, index, "utf8");
+
+const serviceWorkerPath = path.join(out, "service-worker.js");
+if (fs.existsSync(serviceWorkerPath)) {
+  let serviceWorker = fs.readFileSync(serviceWorkerPath, "utf8");
+  serviceWorker = serviceWorker.replace(
+    "var cacheName = 'renpy-web-game';",
+    "var cacheName = 'chuimuo-web-game-20260630-game-dir-fix';"
+  );
+  fs.writeFileSync(serviceWorkerPath, serviceWorker, "utf8");
+}
 
 console.log(`Optimized web build written to ${out}`);
