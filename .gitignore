@@ -4,5 +4,3 @@ game/saves/
 log.txt
 traceback.txt
 errors.txt
-build-web/*
-!build-web/.gitkeep
