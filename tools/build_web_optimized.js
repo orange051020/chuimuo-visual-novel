@@ -81,11 +81,23 @@ print(f'optimized images: {total_before} -> {total_after} bytes')
 run(python, ["-c", optimizeScript]);
 
 const archive = path.join(out, "game.zip");
-const ps = [
-  "$ErrorActionPreference='Stop'",
-  `Compress-Archive -Path '${optimizedGame.replace(/'/g, "''")}\\*' -DestinationPath '${archive.replace(/'/g, "''")}' -Force`
-].join("; ");
-run("powershell.exe", ["-NoProfile", "-ExecutionPolicy", "Bypass", "-Command", ps]);
+const zipScript = `
+from pathlib import Path
+import zipfile
+
+game = Path(r'''${optimizedGame.replace(/\\/g, "\\\\")}''')
+archive = Path(r'''${archive.replace(/\\/g, "\\\\")}''')
+if archive.exists():
+    archive.unlink()
+
+with zipfile.ZipFile(archive, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=6) as z:
+    for path in sorted(game.rglob('*')):
+        if not path.is_file():
+            continue
+        rel = path.relative_to(game).as_posix()
+        z.write(path, 'game/' + rel)
+`;
+run(python, ["-c", zipScript]);
 
 const symbolsPath = path.join(out, "index.html.symbols");
 if (fs.existsSync(symbolsPath)) fs.unlinkSync(symbolsPath);
