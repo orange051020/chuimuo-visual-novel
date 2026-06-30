@@ -96,6 +96,10 @@ with zipfile.ZipFile(archive, 'w', compression=zipfile.ZIP_DEFLATED, compresslev
             continue
         rel = path.relative_to(game).as_posix()
         z.write(path, 'game/' + rel)
+    # Emscripten's Python entrypoint opens /main.py. The SDK web runtime expects
+    # this to be present in the virtual filesystem before Ren'Py starts.
+    sdk = Path(r'''${sdkWeb.replace(/\\/g, "\\\\")}''').parent
+    z.write(sdk / 'renpy.py', 'main.py')
 `;
 run(python, ["-c", zipScript]);
 
