@@ -98,7 +98,7 @@
       "purpose": "maskable"
     }
   ],
-  "lang": "en-US",
+  "lang": "zh-CN",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "black",
@@ -112,5 +112,5 @@
     "fullscreen",
     "minimal-ui"
   ],
-  "package": "game.zip"
+  "short_name": "垂暮序章"
 }
